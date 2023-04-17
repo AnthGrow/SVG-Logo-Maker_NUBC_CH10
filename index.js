@@ -15,7 +15,7 @@ inquirer
     },
 
     {
-      type: "list",
+      //   type: "list",
       name: "shape",
       message: "Select a shape",
       choices: ["circle", "triangle", "square"],
@@ -26,6 +26,14 @@ inquirer
       message: "select a background color",
     },
   ])
-  .then((answers) => {
-    console.info("text", answers.text);
-  });
+  .then(
+    (answers) => {
+      console.info("text", answers.text);
+    }
+
+    //   .catch((error) => {
+    //     if (error.isTtyError) {
+
+    //     }
+    //   },
+  );
