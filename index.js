@@ -1,4 +1,16 @@
 const inquirer = require("inquirer");
+const {Circle, Triangle, Square} = require("lib/shapes");
+
+//require write file
+//require render
+
+//prompt from user generate object
+//object creates svg file
+
+//user input creates shape
+//svg lands in examples
+
+//order of operation - prompt user - create shape - create svg - create text - write .svg
 
 //prompt for text
 
